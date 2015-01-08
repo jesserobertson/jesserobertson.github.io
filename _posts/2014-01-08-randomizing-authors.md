@@ -47,8 +47,17 @@ print ', '.join(map(lambda i: authors[i],
 
 Assuming everything has run ok, you should see something like the following output (permuted in some different fashion, of course).
 
-```
-Utaka Heldt, Olegas General, Kalmi Saites, Donara Polec, Staffan Krammerer, Jemski Grieder, Jaimi Neutz, Caila Wixted, Tahsin Tomms, Brendan Hamzová, Merdan Werbeer, Mykel Eletti, Ricki Plockmeyer, Ajo Lebedinsky, Luciene Tomrley, Saikhantuya Stronge, Chrissa Kipoin, Giwayen Antlers, Ishtar Nikulshin, Shinobu Looney, Alekzander Ogiemwonyi, Chritian Crosara, Bronte Movileanu, Rosalinda Stavoua, Rosemar Weglinsky, Letha Kampras, Soline Sagimoto, Jakobien Waclawik, Aril Blackfeather, Vienna Hyer
-```
+{% highlight text %}
+Utaka Heldt, Olegas General, Kalmi Saites,
+Donara Polec, Staffan Krammerer, Jemski Grieder,
+Jaimi Neutz, Caila Wixted, Tahsin Tomms,
+Brendan Hamzová, Merdan Werbeer, Mykel Eletti,
+Ricki Plockmeyer, Ajo Lebedinsky, Luciene Tomrley,
+Saikhantuya Stronge, Chrissa Kipoin, Giwayen Antlers,
+Ishtar Nikulshin, Shinobu Looney, Alekzander Ogiemwonyi,
+Chritian Crosara, Bronte Movileanu, Rosalinda Stavoua,
+Rosemar Weglinsky, Letha Kampras, Soline Sagimoto,
+Jakobien Waclawik, Aril Blackfeather, Vienna Hyer
+{% endhighlight %}
 
 If you want this code in a nice copy-and-pastable form, [here's a gist](https://gist.github.com/jesserobertson/2d00f4c20b3e7c8c3262).
