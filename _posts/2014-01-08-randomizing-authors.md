@@ -3,9 +3,9 @@ layout: default
 title: Randomizing authors
 ---
 
-Recently we had a an author list to 
+Recently we had to decide the order of some authors for an abstract submitted to the 2015 EGU general meeting. In the end we went for the 'presenter first, everyone else in alphabetical order'. This is cool and all but sucks if your name is Zxygy, as you'll generally end up in the [emeritus position]() on the paper most times. To get around this you can use a random order for the other authors, but what's the best way to draw the names so that you can get a truely random ordering/ Yes, most pseudorandom number generators on your computer work fine, but I thought it would be way cooler to let the quantum fluctuations in the atmosphere decide the author order. Fortunately, [random.org](http://random.org) provides such a service, with a nice JSON-driven API to access your random drawing. So here we go:
 
-I've pulled these from [a random random names generator I found](http://www.namesgenerator.org/100-random-names/)
+First you need a list of names. I've pulled these from [a random random names generator I found](http://www.namesgenerator.org/100-random-names/).
 
 {% highlight python %}
 authors = [
